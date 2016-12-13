@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+	<head>
+		<meta charset="utf-8"/>
+		<link type="text/css" rel="stylesheet" href="./css/main.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script type="text/javascript" src="./js/app.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<title>Hold Steady Ipsum</title>
+	</head>
+
+	<body>
+	<h1>HOLD STEADY IPSUM GENERATOR</h1>
+	<div id="helpButton" class="overlayButton"><a href="#" id="helpLink">Help?</a></div>
+	<div id="albums">
+		<div id="akmDiv" class="albumDiv"><img src="" alt=""><input type="checkbox" id="akm" name="akm"></div>
+		<div id="ssDiv" class="albumDiv"><img src="" alt=""><input type="checkbox" id="ss" name="ss"></div>
+		<div id="bagiaDiv" class="albumDiv"><img src="" alt=""><input type="checkbox" id="bagia" name="bagia"></div>
+		<div id="spDiv" class="albumDiv"><img src="" alt=""><input type="checkbox" id="sp" name="sp"></div>
+		<div id="hiwDiv" class="albumDiv"><img src="" alt=""><input type="checkbox" id="hiw" name="hiw"></div>
+		<div id="tdDiv" class="albumDiv"><img src="" alt=""><input type="checkbox" id="td" name="td"></div>
+	</div>
+	
+	<div id="outputDiv">
+		<textarea id="output" rows="10" cols="100"></textarea>	
+	</div>	
+	
+	<div id="buttonDiv">	
+		<input type="number" id="paragraphs" min="1" max="9" value="1" required>
+		<input type="submit" id="submit" value="Generate">
+		<input type="button" id="selectAll" value="Select/Deselect All Albums">
+		<input type="reset" id="reset" value="Reset Form">
+	</div>
+	
+	<div id="helpOverlay">
+		<div id="overlayContent">
+			<h2>Welcome to the Hold Steady Ipsum random text generator</h2>
+			<ul>
+				<li>The row album covers are for selecting which albums you'd like lyrics from. You can go old school, new school, everything, whatever suits you.</li>
+				<li>Click an album to select or deselect it. Selected albums will have a green checkmark on them.</li>
+				<li>Set how many paragraphs of text you'd like (One paragraph = six lines of lyrics) in the number box. The default is one paragraph.</li>
+				<li>Generate will, well, generate your random text.  Said text will appear in the textbox below the album covers.</li>
+				<li>Click generate again to get another random block with the same setting.</li>
+				<li>Select/Deselect All will do exactly what it says</li>
+				<li>Reset Form will clear the random text, deselect all the albums, and set your paragraphs needed back to 1.</li>
+			</ul>
+			<div id="closeButton" class="overlayButton"><a href="#" id="closeOverlay">Close</a></div>
+		</div>
+	</div>
+
+	</body>
+</html>

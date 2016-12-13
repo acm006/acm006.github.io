@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Start my CSS */
+
+body{
+	font-family: "Montserrat", sans-serif;
+}
+
+h1{
+	margin: 10px;
+	font-size: 45px;
+	text-align: center;
+	font-weight: 700;
+}
+
+h2{
+	margin: 10px;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 700;
+}
+
+.overlayButton{
+	text-align: center;
+	position: absolute;
+	font-weight: bold;
+	font-size: 20px;
+	height: 50px;
+	width: 100px;
+	border-radius: 5px;
+	line-height: 50px;
+}
+
+.overlayButton a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.overlayButton a:visited{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#helpButton{
+	top: 10px;
+	right: 10px;
+	background-color: rgba(0,0,0,.1);
+}
+
+#helpButton:hover{
+	background-color: rgba(0,0,0,.5);
+}
+
+#closeButton{
+	bottom: 10px;
+	right: 10px;
+	background-color: rgba(256,256,256,.5);
+}
+
+#closeButton:hover{
+	background-color: rgba(256,256,256,.1);
+}
+
+#albums{
+width: 828px;
+height: 150px;
+margin: 40px auto;
+}
+
+input[type="checkbox"]{
+	display: none;
+}
+
+.albumDiv{
+	height: 100px;
+	width: 100px;
+	border: 4px solid #B1b1b1;
+	border-radius: 8px;
+	margin: 15px;
+	float: left;
+	background-size: cover;
+}
+
+.albumDiv img{
+	height: 100px;
+	width: 100px;
+}
+
+#akmDiv{
+	background-image: url("../images/akm.jpg");
+}
+
+#ssDiv{
+	background-image: url("../images/ss.jpg");
+}
+
+#bagiaDiv{
+	background-image: url("../images/bagia.jpg");
+}
+
+#spDiv{
+	background-image: url("../images/sp.jpg");
+}
+
+#hiwDiv{
+	background-image: url("../images/hiw.jpg");
+}
+
+#tdDiv{
+	background-image: url("../images/td.jpg");
+}
+
+#buttonDiv{
+	width: 518px;
+	margin: 0 auto;
+}
+
+#outputDiv{
+	width: 830px;
+	margin: 0 auto;
+}
+
+#paragraphs{
+	font-size: 20px;
+	height: 30px;
+	width: 30px;
+}
+
+#submit{
+	font-size: 20px;
+	height: 30px;
+	width: 100px;
+	border-radius: 5px;
+}
+
+#selectAll{
+	font-size: 20px;
+	height: 30px;
+	width: 250px;
+	border-radius: 5px;
+}
+
+#reset{
+	font-size: 20px;
+	height: 30px;
+	width: 120px;
+	border-radius: 5px;
+}
+
+#helpOverlay{
+	background-color: rgba(0,0,0,.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	z-index: 1000;
+	display: none;
+	height: 100%;
+	width: 100%;
+}
+
+#overlayContent{
+	color: #FFFFFF;
+	position: absolute;
+	height: 75%;
+	width: 75%;
+	top: 12.5%;
+	left: 12.5%;
+	background-color: #000000;
+}
+
+li{
+	padding: 10px;
+}
+
+
+

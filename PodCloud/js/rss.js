@@ -29,7 +29,7 @@
 
   RSS.prototype.load = function(callback) {
     var apiProtocol = "http" + (this.options.ssl ? "s" : "")
-      , apiHost     = apiProtocol + "://ajax.googleapis.com/ajax/services/feed/load"
+      , apiHost     = apiProtocol + "https://ajax.googleapis.com/ajax/services/feed/load"
       , apiUrl      = apiHost + "?v=1.0&output=" + this.options.outputMode + "&callback=?&q=" + encodeURIComponent(this.url)
 
     if (this.options.limit != null) apiUrl += "&num=" + this.options.limit;

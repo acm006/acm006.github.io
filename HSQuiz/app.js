@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 	//q-> question, a->answer choices, c->correct answer	
 	var questions = [ 
-		{q: "<p>If they ask about Charlemange,</p><p>Be polite, say something vague</p>",
+		{q: "<p>If they ask about Charlemagne,</p><p>Be polite, say something vague</p>",
 		a: ["Killer Parties", "Barely Breathing", "One For The Cutters", "We Can Get Together"],
 		c: 0						
 		},

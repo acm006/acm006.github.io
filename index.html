@@ -22,8 +22,8 @@
 					<ul class="nav nav-pills"> 
 						<li class="active"><a href="#home" data-toggle="tab">Home<i class="glyphicon glyphicon-home"></i></a></li>
 						<li><a href="#about" data-toggle="tab">About<i class="glyphicon glyphicon-user"></i></a></li>
-						<li><a href="#portfolio" data-toggle="tab">GIS Portfolio<i class="glyphicon glyphicon-globe"></i></a></li>
-						<li><a href="#projects" data-toggle="tab">Programming Projects<i class="glyphicon glyphicon-file"></i></a></li>
+						<li><a href="#portfolio" data-toggle="tab">Cartography<i class="glyphicon glyphicon-globe"></i></a></li>
+						<li><a href="#projects" data-toggle="tab">Programming<i class="glyphicon glyphicon-file"></i></a></li>
 						<li><a href="#contact" data-toggle="tab">Contact<i class="glyphicon glyphicon-envelope"></i></a></li>
 					</ul>				
 				</div>
@@ -42,11 +42,11 @@
 						<div class="tab-pane" id="about">
 							<dl id="faqDefinitionList">
 								<dt>Tell us about yourself:</dt>						
-									<dd><p>My name is Andrew McGuire. I was born in Indiana, grew up in Iowa, and now live in Minnesota on a small acreage with my wife.  We're expecting our first child sometime mid-March 2017.</p></dd>
+									<dd><p>My name is Andrew McGuire. I was born in Indiana, grew up in Iowa, and now live in Minnesota on a small acreage with my wife and infant daughter.</p></dd>
 								<dt>What's your background?</dt>						
 									<dd><p>I went to Drake University in Des Moines, Iowa, where I got a Bachelor's in history, with minors in math
 									and geography. After that, I spent a year living in Dublin, Ireland while I got my Master's in Irish history.
-									A few odd jobs here and there followed- teaching English in Prague, driving a Zamboni in Buffalo, taking care of dogs in Austin, and now selling bike racks in Minneapolis.  Tired of the odd jobs, I decided I was going to go back to school for my GIS certificate.</p></dd>
+									A few odd jobs here and there followed- teaching English in Prague, driving a Zamboni in Buffalo, taking care of dogs in Austin, and  selling bike racks in Minneapolis.  Tired of the odd jobs, I decided I was going to go back to school for my Associates degree in GIS, which I'm completeing in Summer 2017.</p></dd>
 								<dt>Why GIS?</dt>						
 									<dd><p>I pursued history because it was something I was passionate about, but without real consideration for job prospects.  Determined not ot make that mistake again, I took a long think about what would be marketable and would be enjoyable.  I looked at the bookshelf where my wife and I keep our globe collection and it hit me - I love computer programming and I love maps.  Remembering a GIS class I took in undergrad, I decided it was a path I wanted to pursue.  Why shouldn't I seek a career combining to things I love so much.</p></dd>
 								<dt>What do you like to do in your free time?</dt>						
@@ -54,7 +54,7 @@
  							</dl>			
 						</div><!-- end about -->
 						<div class="tab-pane" id="portfolio">
-							<h2>GIS Portfolio</h2>
+							<h2>Cartography</h2>
 							<div class="row"><!-- begin project thumbnail grouping -->
  								<div class="col-sm-6 col-md-3"><!-- begin thumbnail div -->
    									<div class="thumbnail">
@@ -89,6 +89,18 @@
 											<h3>Bike Parking At Wrigley Field</h3>
 											<p>Fall Semester Final</p>
 											<p><button type="button" class="btn btn-primary"><a href="#" type="text" data-toggle="modal" data-target="#WrigleyModal">Learn More</a></button></p>									
+										</div>							
+									</div>
+								</div> <!-- end thumbnail div -->
+								<div class="col-sm-6 col-md-3"><!-- begin thumbnail div -->
+									<div class="thumbnail">
+										<a href="#" class="thumbnail">
+											<img src="./resources/Minnesota.png" alt="Minnesota">
+										</a>
+										<div class="caption">
+											<h3>Minnesota Weather Trends</h3>
+											<p>Multi-map display</p>
+											<p><button type="button" class="btn btn-primary"><a href="#" type="text" data-toggle="modal" data-target="#MinnesotaModal">Learn More</a></button></p>									
 										</div>							
 									</div>
 								</div> <!-- end thumbnail div -->	
@@ -147,13 +159,25 @@
 										</div>							
 									</div>
 								</div> <!-- end HSQuiz thumbnail div -->
+								<div class="col-sm-6 col-md-3"><!-- begin Python thumbnail div -->
+   									<div class="thumbnail">
+										<a href="#" class="thumbnail">
+											<img src="./resources/Python.png" alt="HSI">
+										</a>
+										<div class="caption">
+											<h3>Python Geocoder</h3>
+											<p>Transforming web data into a map via Python</p>
+											<p><button type="button" class="btn btn-primary"><a href="#" type="text" data-toggle="modal" data-target="#PythonModal">Learn More</a></button></p>									
+										</div>							
+									</div>
+								</div> <!-- end HS Ipsum thumbnail div -->
 							</div><!-- end project thumbnail grouping -->	
 						</div> <!-- end projects -->
 						<div class="tab-pane" id="contact">
 							<h2>Contact</h2>
 							<p>I look foward to hearing from you.  Please feel free to contact me by any of the methods here</p>			
  							<ul id="contactInfo">
-								<li><a href="mailto:andrew@cliste.co"><i class="glyphicon glyphicon-envelope"></i>Andrew.McGuire@students.ItascaCC.edu</a></li>
+								<li><a href="mailto:Andrew.McGuire@students.ItascaCC.edu"><i class="glyphicon glyphicon-envelope"></i>Andrew.McGuire@students.ItascaCC.edu</a></li>
 								<li><a href="tel:15125024956"><i class="glyphicon glyphicon-earphone"></i>512.502.4956</a></li>
 								<li><a href="https://www.linkedin.com/pub/andrew-mcguire/43/1a6/838"><div id="li" class="mediaIcon"></div></a></li>		
  							</ul>				
@@ -163,7 +187,7 @@
 			</div><!-- end main page -->
 		</div> <!-- end content container -->
 		<div class="modal fade" id="JohnMuirModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> <!-- begin modal window -->
-  			<div class="modal-dialog">
+			<div class="modal-dialog">
    				<div class="modal-content">
       				<div class="modal-header">
         				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -181,7 +205,7 @@
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 						<button type="button" class="btn btn-primary"><a href="./resources/JohnMuir.png" target="_blank">View Image</a></button>
-						<button type="button" class="btn btn-primary"><a href="/resources/JohnMuir.pdf">Download PDF</a></button>
+						<button type="button" class="btn btn-primary"><a href="./resources/JohnMuir.pdf">Download PDF</a></button>
 					</div>
 				</div>
 			</div>
@@ -232,6 +256,29 @@
 				</div>
 			</div>
 		</div><!-- end Wrigley modal window -->
+		<div class="modal fade" id="MinnesotaModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> <!-- begin modal window -->
+  			<div class="modal-dialog">
+   				<div class="modal-content">
+      				<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        					<h4 class="modal-title" id="myModalLabel">Minnesota Weather Trends</h4>
+     				</div>
+     				<div class="modal-body">
+						Objectives of this assignment were:
+						<ul>
+							<li>Displaying multiple maps</li>
+							<li>Dissolving similar regions</li>
+							<li>Classifying land uses</li>						
+						</ul>
+     				</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary"><a href="./resources/Minnesota.png" target="_blank">View Image</a></button>
+						<button type="button" class="btn btn-primary"><a href="./resources/JohnMuir.pdf">Download PDF</a></button>
+					</div>
+				</div>
+			</div>
+		</div><!-- end John Muir modal window -->
 		<div class="modal fade" id="HSIpsumModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> <!-- begin modal window -->
   			<div class="modal-dialog">
    				<div class="modal-content">
@@ -326,6 +373,30 @@
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 						<button type="button" class="btn btn-primary"><a href="/HSQuiz">View Project</a></button>
+					</div>
+				</div>
+			</div>
+		</div><!-- end HSQuiz modal window -->
+		<div class="modal fade" id="PythonModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> <!-- begin modal window -->
+  			<div class="modal-dialog">
+   				<div class="modal-content">
+      				<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        					<h4 class="modal-title" id="myModalLabel">Python Geocoder</h4>
+     				</div>
+     				<div class="modal-body">
+						In my final for my GIS applications course, I wrote a Python script to transform web data into a map without doing any manual work.  The steps included:
+						<ul>
+							<li>scrape HTML data</li>
+							<li>format the data correctly for an API submission</li>
+							<li>print the formatted data to CSV and submit it to the geocoder API</li>
+							<li>format the return data and import into ArcMap</li>
+							<li>display the data and export a map</li>						
+						</ul>
+     				</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary"><a href="/Python">View Project</a></button>
 					</div>
 				</div>
 			</div>
